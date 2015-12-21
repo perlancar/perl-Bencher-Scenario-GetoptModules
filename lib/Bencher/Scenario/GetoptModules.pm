@@ -1,4 +1,4 @@
-package Bencher::Scenario::StartupGetoptModules;
+package Bencher::Scenario::GetoptModules;
 
 # DATE
 # VERSION
@@ -8,6 +8,8 @@ use strict;
 use warnings;
 
 our $scenario = {
+    summary => 'Benchmark some popular Perl Getopt modules',
+
     module_startup => 1,
 
     participants => [
@@ -30,8 +32,6 @@ our $scenario = {
 };
 
 1;
-# ABSTRACT: Benchmark startup time of some popular Perl Getopt modules
+# ABSTRACT:
 
 =head1 SYNOPSIS
-
- % bencher -m StartupGetoptModules [other option]...

@@ -33,5 +33,3 @@ our $scenario = {
 
 1;
 # ABSTRACT:
-
-=head1 SYNOPSIS

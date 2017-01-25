@@ -10,6 +10,12 @@ use warnings;
 our $scenario = {
     summary => 'Benchmark some popular Perl Getopt modules',
 
+    modules => {
+        # minimum versions
+        'Getopt::Long::EvenLess' => {version=>'0.10'},
+        'Getopt::Long::Subcommand' => {version=>'0.09'},
+    },
+
     module_startup => 1,
 
     participants => [

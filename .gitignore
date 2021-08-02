@@ -2,3 +2,4 @@ Bencher-Scenario-GetoptModules-*
 .build
 *~
 nytprof*
+.DS_Store
